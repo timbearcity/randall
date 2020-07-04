@@ -1,0 +1,10 @@
+{% extends 'users/base_users.html' %}
+{% block title %}{{ customuser.username }} | Randall{% endblock %}
+{% block content %}
+  <h1>{{ customuser.username }}</h1>
+  <p>{{ customuser.first_name }}</p>
+  <p>{{ customuser.last_name }}</p>
+  {% if user == customuser %}
+  <a href="{% url 'users:edit' user.username %}" class="btn btn-warning">Edit</a>
+  {% endif %}
+{% endblock %}

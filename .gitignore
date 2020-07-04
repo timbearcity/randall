@@ -1,0 +1,5 @@
+.coverage
+.vscode
+.DS_Store
+env
+randall/secret_settings.py

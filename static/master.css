@@ -1,0 +1,24 @@
+/*
+Light shades: #D6D4C5  Background or text on inverted designs
+Light accent: #A3996B
+Main brand colour: #5D6D37
+Dark accent: #805B38
+Dark shades: #19211C  Text colour or background on inverted designs
+*/
+
+body {
+  /* background-color: #D6D4C5; */
+}
+
+header {
+  /* border-bottom: 1px solid lightgray; */
+}
+
+/* .sidebar-left {
+  border-right: 1px solid lightgray;
+}
+
+
+.sidebar-right {
+  border-left: 1px solid lightgray;
+} */
