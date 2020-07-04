@@ -31,8 +31,8 @@ class ProfileUpdateView(generic.UpdateView):
     fields = ['username', 'first_name', 'last_name']
 
     def get_object(self):
-        username = self.kwargs.get('username')
-        return get_object_or_404(CustomUser, username=username)
+        request_username = self.request.user.username
+        return get_object_or_404(CustomUser, username=request_username)
 
 
 class SignupView(generic.CreateView):
