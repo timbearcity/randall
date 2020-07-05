@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['localhost', '192.168.1.20']
 # Application definition
 
 INSTALLED_APPS = [
+    'randomizers.apps.RandomizersConfig',
     'users.apps.UsersConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
