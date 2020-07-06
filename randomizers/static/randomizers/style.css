@@ -1,0 +1,29 @@
+main {
+  text-align: center;
+}
+
+.sheet {
+  width: 90vw;
+  height: 127.26vw;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+
+}
+
+@media (min-width: 992px) {
+  .sheet {
+    width: 55vw;
+    height: 77.77vw;
+  }
+}
+
+.row {
+  height: 15%;
+}
+
+.pageHead {
+  height: 25%;
+}
+
+.col {
+  border: 1px solid black;
+}

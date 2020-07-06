@@ -1,4 +1,33 @@
 {% extends 'randomizers/base_randomizers.html' %}
+{% load static %}
+{% block link %}<link rel="stylesheet" href="{% static 'randomizers/style.css' %}">{% endblock %}
 {% block content %}
-<h1 class="text-center">Worksheets</h1>
+<h1>Worksheets</h1>
+<div class="container sheet">
+  <div class="row pageHead">
+    <div class="col">Addition</div>
+  </div>
+  <div class="row">
+    <div class="col">5 + 5 = _</div>
+    <div class="col">5 + 5 = _</div>
+  </div>
+  <div class="row">
+    <div class="col">5 + 5 = _</div>
+    <div class="col">5 + 5 = _</div>
+  </div>
+  <div class="row">
+    <div class="col">5 + 5 = _</div>
+    <div class="col">5 + 5 = _</div>
+  </div>
+  <div class="row">
+    <div class="col">5 + 5 = _</div>
+    <div class="col">5 + 5 = _</div>
+  </div>
+  <div class="row">
+    <div class="col">5 + 5 = _</div>
+    <div class="col">5 + 5 = _</div>
+  </div>
+</div>
+<button class="btn btn-primary mt-4" id="randomize">Randomize</button>
+<script src="{% static 'randomizers/script.js' %}"></script>
 {% endblock %}
