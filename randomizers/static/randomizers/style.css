@@ -2,7 +2,7 @@ main {
   text-align: center;
 }
 
-.sheet {
+#sheet {
   width: 90vw;
   height: 127.26vw;
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
@@ -10,18 +10,18 @@ main {
 }
 
 @media (min-width: 992px) {
-  .sheet {
+  #sheet {
     width: 55vw;
     height: 77.77vw;
   }
 }
 
 .row {
-  height: 15%;
+  height: 17%;
 }
 
-.pageHead {
-  height: 25%;
+#pageHead {
+  height: 15%;
 }
 
 .col {
