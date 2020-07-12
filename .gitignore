@@ -6,5 +6,5 @@ __pycache__/
 *.log
 .vscode
 .DS_Store
-.venv/
+env/
 randall/secret_settings.py
