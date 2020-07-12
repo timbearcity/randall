@@ -6,7 +6,6 @@ main {
   width: 90vw;
   height: 127.26vw;
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-
 }
 
 @media (min-width: 992px) {
@@ -22,8 +21,30 @@ main {
 
 #pageHead {
   height: 15%;
+  font-size: 2.5em;
 }
 
-.col {
-  border: 1px solid black;
+.col-left {
+  border-right: 1px solid black;
+}
+
+.col-left, .col-right {
+  border-top: 1px solid black;
+}
+
+.col-body {
+  font-size: xx-large;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #sheet, #sheet * {
+    visibility: visible;
+  }
+}
+
+@page {
+  margin: 0;
 }
