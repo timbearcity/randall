@@ -1,11 +1,10 @@
 # Randall
 
-Randall is a Django application for randomly generating various content.
+Randall is an experimental project for learning purposes.
 
-## Under development
+## Random worksheet generator
 
-Randall is still under early development, including this README.
-More to come...
+The random worksheet generator generates random maths problems in a printable format for children.
 
 ## License
 
